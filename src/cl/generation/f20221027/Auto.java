@@ -10,13 +10,14 @@ public class Auto {
 	private Float rendimiento; // 10,5 km/l
 	
 	
-      // constructor
+      // constructor vacio
 	 // nos permite instanciar al objeto 
 	//inicializar los atributos	
 	public Auto() {
 		super();
 	}
   
+//	constructor con datos
 	
 	public Auto(String marca, String color, String modelo, Float cilindrada, Float rendimiento) {
 		super();

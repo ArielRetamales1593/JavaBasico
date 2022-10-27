@@ -2,7 +2,7 @@ package cl.generation.f20221027;
 
 import java.util.Scanner;
 
-public class Menu {
+public class Calculo_menu_ej1 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -10,6 +10,7 @@ public class Menu {
 		int contadorError = 4;
 		menu();
 
+		
 		do {
 			System.out.println(" Seleccione una opción ");
 			opciones = scanner.nextInt();
@@ -31,13 +32,15 @@ public class Menu {
 
 				break;
 			}
-		} while (opciones < 0 || opciones > 4);
-
+		} while (opciones < 0 || opciones > 3);
+		
 		if (opciones == 0 || contadorError == 0) {
 			System.out.println("adios");
 
 		} else {
 			System.out.println("fuera del while  " + "ingreso opcion " + opciones); // tester
+			
+			
 			System.out.println("ingrese un número");
 			float num1 = scanner.nextFloat();
 			System.out.println(" ingrese el 2do número");
@@ -74,33 +77,35 @@ public class Menu {
 			}
 
 		}
-
-//	    Menu
-//		calculadora con  4 operaciones basicas
-//      solicitar 2 numeros float
-//		imprimir resultados 
-//		preguntar a usuario , ofrecer repeticion (bucles)
-//		definir los metodos
-//		validaciones
-//		terminar ejecucion 
-//		limpiar variables
-
-//	INVESTIGAR TDT 
-
+		
+		
+		
+		
+		
+		
 	}
 
+	
+	
+	
 	public static void menu() {
-
-		System.out.println("+*+*+*+*+*+*+*+*");
-		System.out.println("  --M-e-n-u--");
-		System.out.println("+*+*+*+*+*+*+*+*");
-		System.out.println("1 Suma");
-		System.out.println("2 Resta");
-		System.out.println("3 Multipliacion");
-		System.out.println("4 Division");
-		System.out.println("0 Salir");
-		System.out.println("+*+*+*+*+*+*+*+*");
-
+		
+		System.out.println("********************");
+		System.out.println("*       MENU       *");
+		System.out.println("********************");
+		System.out.println("*1.-   Triángulo  *");
+		System.out.println("*2.-   Circunferencia *");
+		System.out.println("*3.-	Rectángulo  *");
+		System.out.println("*0.-   SALIR       *");
+		System.out.println("********************");
+		
+		
 	}
+	
+	
+	
+	
+	
+	
 
 }

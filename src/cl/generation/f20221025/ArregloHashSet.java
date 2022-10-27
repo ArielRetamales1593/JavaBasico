@@ -19,6 +19,7 @@ public class ArregloHashSet {
 
 //		verificar el contenido del arreglo
 		boolean verificarName = relatores.contains("diego");
+		System.out.println(verificarName);
 
 		HashSet<String> frutas = new HashSet<String>();
 
@@ -31,14 +32,7 @@ public class ArregloHashSet {
 //		      System.out.println(frutas);
 //		out : [Naranja, Manzana, Mango, Platano]
 
-		int i = 0;
 
-		while (i < frutas.size()) {
-
-			System.out.println(frutas.get(i));
-			i++;
-
-		}
 
 		System.out.println(frutas);
 	}

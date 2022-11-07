@@ -4,7 +4,7 @@ public class DatosUsuario {
 	
 	//atributos
 	private String nombre;
-	private String apelido;
+	private String apellido;
 	private Integer edad;
 	private String correo;
 	private Integer telefono;
@@ -18,7 +18,7 @@ public class DatosUsuario {
 	public DatosUsuario(String nombre, String apelido, Integer edad, String correo, Integer telefono) {
 		super();
 		this.nombre = nombre;
-		this.apelido = apelido;
+		this.apellido = apelido;
 		this.edad = edad;
 		this.correo = correo;
 		this.telefono = telefono;
@@ -34,11 +34,11 @@ public class DatosUsuario {
 	}
 
 	public String getApelido() {
-		return apelido;
+		return apellido;
 	}
 
 	public void setApelido(String apelido) {
-		this.apelido = apelido;
+		this.apellido = apelido;
 	}
 
 	public Integer getEdad() {
